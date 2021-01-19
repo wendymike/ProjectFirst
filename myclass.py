@@ -4,13 +4,10 @@ class MyRouter(object):
         self.routername = routername
         self.model = model
         self.serialno = serialno
-        self.ios = ios 
-        
+        self.ios = ios
+
     def print_router(self, manuf_date):
-        print("the router name is: ", self.routername)
+        print("the ROUTER name is: ", self.routername)
         print("the router model is: ", self.model)
         print("the serial number of: ", self.serialno)
         print("the model and date combined: ", self.model + manuf_date)
-        
-        
-        
